@@ -1,0 +1,12 @@
+ROC AUC: 0.6632
+Ensemble: VotingClassifier (XGB, LGBM, RF)
+Scale_pos_weight / class_weight='balanced' aplicado
+Reporte de Clasificacion:
+              precision    recall  f1-score   support
+
+           0       0.78      0.61      0.69      2058
+           1       0.42      0.62      0.50       942
+
+    accuracy                           0.62      3000
+   macro avg       0.60      0.62      0.60      3000
+weighted avg       0.67      0.62      0.63      3000
