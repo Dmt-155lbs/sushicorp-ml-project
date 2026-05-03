@@ -1,0 +1,23 @@
+artifact_path: "file:D:/Daniel/8vo SEMESTRE/An\xE1lisis de datos/Proyecto_Final/Fase_2/mlruns/1/models/m-201416170e7740d99abd9c31cbc00a93/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-201416170e7740d99abd9c31cbc00a93
+model_size_bytes: 3073650
+model_uuid: m-201416170e7740d99abd9c31cbc00a93
+prompts: null
+run_id: 57dc1a762ad247d8a7b5e7dfada33e27
+utc_time_created: '2026-05-03 23:39:21.067855'
